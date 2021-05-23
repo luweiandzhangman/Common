@@ -29,6 +29,11 @@ android {
 }
 
 dependencies {
+
+    api 'com.alibaba:arouter-api:1.4.0'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.2.1'
+
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
